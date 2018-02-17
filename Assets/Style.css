@@ -1,19 +1,22 @@
 body{
     font-family: 'Georgia', Times,'Times New Roman', serif;
-    background-color: #1d3169
-
+    background: url('Images/Background.png')
+    
 }
 
 .container{
     border-radius: 5px;
-    background-color: #1d3169;
+    background-color: #fafafacb;
     padding: 20px;
+    border: 3.5px solid #000000;
+
+
 }
 
 h1{
     color: black;
     text-align: center;
-    font-weight: 250;
+    font-weight: 250 bold
 }
 
 h3{  
@@ -25,10 +28,46 @@ h3{
 input[type="text"], textarea{
     width: 100%;
     padding: 12px;
-    border: 1px solid #1d3169;
+    border: 2.5px solid #000000;
     border-radius: 5px solid;
     margin-top: 6px;
     margin-bottom: 16px;
-    background-color: #b9c8f0a2;
-    box-sizing: border-box
+    background: url('Images/Background.png');
+    box-sizing: border-box;
 }
+.nav{
+    background-color: rgba(252, 252, 252, 0.534);
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    border: 1.5px solid #000000
+
+}
+
+.nav > li{
+    display: inline-block;
+    width: 15%;
+}
+
+.fa{padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook{
+    background-color: #3b5998;
+    color: white;
+}
+
+
+.fa-gmail{
+    background-color: #ee3c30;
+    color: rgb(255, 255, 255);
+    height: 20px   
+}
+.fa-linkedin{
+    background-color: #508ac5;
+    color: rgb(253, 246, 246);
+    border: 1.75px solid #e3e4ee
